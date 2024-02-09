@@ -1,0 +1,19 @@
+module Base
+{
+    item PrayerCards
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Prayer Deck,
+        Icon = PrayerCards/deck,
+        WorldStaticModel = TarotCards,
+    }
+
+	item PrayerBox
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Prayer Deck,
+        Icon = TarotCards/deck,
+        WorldStaticModel = TarotCards,
+    }
+	
+}

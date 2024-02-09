@@ -1,0 +1,59 @@
+module Base
+{
+    	item PlayingCards1
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Playing Card,
+        Icon = PlayingCards/deck1,
+        WorldStaticModel = PlayingCards,
+    }
+
+   	 item PlayingCardBox1
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = 	Container, Capacity = 2,
+        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+    }
+
+	item PlayingCards2
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Playing Card,
+        Icon = PlayingCards/deck2,
+        WorldStaticModel = PlayingCards,
+    }
+
+    	item PlayingCardBox2
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+    }
+
+ 	item PlayingCards3
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Playing Card,
+        Icon = PlayingCards/deck3,
+        WorldStaticModel = PlayingCards,
+    }
+
+    	item PlayingCardBox3
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+    }
+
+	item PlayingCards4
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Playing Card,
+        Icon = PlayingCards/deck4,
+        WorldStaticModel = PlayingCards,
+    }
+
+    	item PlayingCardBox4
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+    }
+
+}

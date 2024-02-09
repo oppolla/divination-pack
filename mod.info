@@ -1,0 +1,5 @@
+name=Game Night - Divination Pack
+id=gamenight_Taro
+description= Get a glimpse of what the future has in store for your character
+poster=poster.png
+require=gamenight

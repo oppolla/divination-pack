@@ -1,0 +1,15 @@
+ItemName_EN = {
+    ItemName_Base.TarotCards1 = "Tarot Deck",
+    ItemName_Base.TarotCards2 = "Tarot Deck",
+    ItemName_Base.TarotBox1 = "Tarot Box",
+    ItemName_Base.TarotBox2 = "Tarot Box",
+    ItemName_Base.PlayingCards1 = "Playing Cards",
+    ItemName_Base.PlayingCards2 = "Playing Cards",
+    ItemName_Base.PlayingCards3 = "Playing Cards",
+    ItemName_Base.PlayingCards4 = "Playing Cards",
+    ItemName_Base.PlayingCardBox1 = "Playing Card Box",
+    ItemName_Base.PlayingCardBox2 = "Playing Card Box",
+    ItemName_Base.PlayingCardBox3 = "Playing Card Box",
+    ItemName_Base.PlayingCardBox4 = "Playing Card Box",
+    ItemName_Base.PrayerCards1 = "Prayer Deck",
+}
