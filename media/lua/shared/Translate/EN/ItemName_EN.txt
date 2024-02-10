@@ -11,5 +11,7 @@ ItemName_EN = {
     ItemName_Base.PlayingCardBox2 = "Playing Card Box",
     ItemName_Base.PlayingCardBox3 = "Playing Card Box",
     ItemName_Base.PlayingCardBox4 = "Playing Card Box",
-    ItemName_Base.PrayerCards1 = "Prayer Deck",
+    ItemName_Base.PrayerCards = "Prayer Deck",
+    ItemName_Base.ZenerCards = "Zener Test Cards",
+    ItemName_Base.ZenerBox = "Zener Box",
 }

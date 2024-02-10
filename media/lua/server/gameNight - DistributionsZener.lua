@@ -1,9 +1,9 @@
 require "Items/SuburbsDistributions"
 
 local gameNightBoxes = {
-    PlayingCardBox = { rolls = 1,
+    ZenerBox = { rolls = 1,
         items = {
-            "PlayingCards", 9999,
+            "ZenerCards", 9999,
         },
         junk = { rolls = 1, items = {} }, fillRand = 0,
     },
@@ -26,6 +26,6 @@ proceduralDistGameNight.listsToInsert = {
 }
 
 for distID,chance in pairs(proceduralDistGameNight.listsToInsert) do
-    table.insert(ProceduralDistributions.list[distID].items, "PlayingCardBox")
+    table.insert(ProceduralDistributions.list[distID].items, "ZenerBox")
     table.insert(ProceduralDistributions.list[distID].items, chance)
 end

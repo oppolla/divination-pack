@@ -3,28 +3,17 @@ module Base
     item ZenerCards
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Prayer Deck,
-        Icon = PrayerCards/deck,
-        WorldStaticModel = TarotCards,
+        DisplayName = Zener Test Cards,
+        Icon = ZenerCards/deck,
+        WorldStaticModel = ZenerCards,
     }
 
 	item ZenerBox
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Prayer Deck,
-        Icon = TarotCards/deck,
-        WorldStaticModel = TarotCards,
-    }
-
-    recipe ZenerCards
-    {
-        TreeBranch,
-        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
-
-        Result:ZenerCards,
-        Time:160.0,
-        Category:Woodworking,
-        OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+        DisplayName = Zener Box,
+        Icon = ZenerCards/deck,
+        WorldStaticModel = ZenerCards,
     }
 	
 }

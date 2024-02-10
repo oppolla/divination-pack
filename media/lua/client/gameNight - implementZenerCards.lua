@@ -21,11 +21,11 @@ local zenerCards = {
 	"Plus",
 	"Plus",
 	"Plus",
-	"Squiggle",
-	"Squiggle",
-	"Squiggle",
-	"Squiggle",
-	"Squiggle",
+	"Squiggles",
+	"Squiggles",
+	"Squiggles",
+	"Squiggles",
+	"Squiggles",
 	
 }
 

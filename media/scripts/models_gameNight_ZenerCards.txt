@@ -17,7 +17,7 @@ module Base
     model ZenerBox
     {
         mesh = WorldItems/cardpack,
-        texture = Item_Boxes/TarotBox_ground,
+        texture = Item_Boxes/ZenerBox_ground,
         scale = 0.045,
     }
 

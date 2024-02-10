@@ -4,8 +4,8 @@ module Base
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
         DisplayName = Playing Card,
-        Icon = PlayingCards/deck1,
-        WorldStaticModel = PlayingCards,
+        Icon = PlayingCards1/deck,
+        WorldStaticModel = PlayingCards1,
     }
 
    	 item PlayingCardBox1
@@ -18,8 +18,8 @@ module Base
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
         DisplayName = Playing Card,
-        Icon = PlayingCards/deck2,
-        WorldStaticModel = PlayingCards,
+        Icon = PlayingCards2/deck,
+        WorldStaticModel = PlayingCards2,
     }
 
     	item PlayingCardBox2
@@ -32,8 +32,8 @@ module Base
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
         DisplayName = Playing Card,
-        Icon = PlayingCards/deck3,
-        WorldStaticModel = PlayingCards,
+        Icon = PlayingCards3/deck,
+        WorldStaticModel = PlayingCards3,
     }
 
     	item PlayingCardBox3
@@ -46,8 +46,8 @@ module Base
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
         DisplayName = Playing Card,
-        Icon = PlayingCards/deck4,
-        WorldStaticModel = PlayingCards,
+        Icon = PlayingCards4/deck,
+        WorldStaticModel = PlayingCards4,
     }
 
     	item PlayingCardBox4
