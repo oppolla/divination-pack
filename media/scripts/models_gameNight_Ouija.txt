@@ -1,0 +1,17 @@
+module Base
+{
+    model OuijaBoard
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_ZenerCards/deckTexture,
+        scale = 0.033,
+    }
+
+    model Planchette
+    {
+        mesh = WorldItems/card,
+        texture = ZenerCards/cardstock,
+        scale = 0.033,
+    }  
+
+}
