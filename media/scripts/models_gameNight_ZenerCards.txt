@@ -1,0 +1,24 @@
+module Base
+{
+    model ZenerCards
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_ZenerCards/deckTexture,
+        scale = 0.033,
+    }
+
+    model ZenerCard
+    {
+        mesh = WorldItems/card,
+        texture = ZenerCards/cardstock,
+        scale = 0.033,
+    }  
+
+    model ZenerBox
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_Boxes/TarotBox_ground,
+        scale = 0.045,
+    }
+
+}

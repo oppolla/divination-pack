@@ -31,7 +31,7 @@ model PlayingCards4
     model PlayingCard
     {
         mesh = WorldItems/card,
-        texture = Item_PlayingCards/cardTexture,
+        texture = Item_PlayingCards1/cardTexture,
         scale = 0.024,
     }
 
