@@ -1,9 +1,0 @@
-module Base
-{
-    item ZenerCards
-    {
-        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Zener Test Cards, Icon = ZenerCards/deck, WorldStaticModel = ZenerCards,
-    }
-
-}

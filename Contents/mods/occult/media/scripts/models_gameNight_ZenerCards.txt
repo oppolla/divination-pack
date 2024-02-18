@@ -1,8 +1,0 @@
-module Base
-{
-    model PrayerDeck
-    { mesh = WorldItems/cardpack, texture = Item_PrayerCards/deckTexture, scale = 0.033, }
-
-    model PrayerCard
-    { mesh = WorldItems/card, texture = Item_PrayerCards/cardstock, scale = 0.033, }
-}

@@ -1,0 +1,35 @@
+module Base
+{
+    item PlayingCards1
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Playing Cards, Icon = PlayingCards1/deck, WorldStaticModel = PlayingCards1, }
+
+	item PlayingCards2
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Playing Cards, Icon = PlayingCards2/deck, WorldStaticModel = PlayingCards2, }
+
+ 	item PlayingCards3
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Playing Cards, Icon = PlayingCards3/deck, WorldStaticModel = PlayingCards3, }
+
+	item PlayingCards4
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Playing Cards, Icon = PlayingCards4/deck, WorldStaticModel = PlayingCards4, }
+
+    item PrayerCards
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Prayer Deck, Icon = ZenerCards/deck, WorldStaticModel = PrayerCards, }
+
+    item TarotCards1
+    { DisplayCategory = Deck, Weight = 0.01, Type = Occult,
+    DisplayName = Tarot Deck, Icon = TarotCards1/deck, WorldStaticModel = TarotCards1, }
+
+	item TarotCards2
+    { DisplayCategory = Deck, Weight = 0.01, Type = Occult,
+    DisplayName = Tarot Deck, Icon = TarotCards2/deck, WorldStaticModel = TarotCards2, }
+
+    item ZenerCards
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Zener Test Cards, Icon = ZenerCards/deck, WorldStaticModel = ZenerCards, }
+
+}
