@@ -1,4 +1,4 @@
---[[
+
 local applyItemDetails = require "gameNight - applyItemDetails"
 
 
@@ -93,4 +93,3 @@ local tarotCards = {
 	"The Sun", "Judgement", "The World",
 }
 applyItemDetails.addDeck("TarotCards1", tarotCards)
---]]

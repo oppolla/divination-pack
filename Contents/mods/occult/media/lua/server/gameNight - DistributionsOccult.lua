@@ -1,4 +1,4 @@
---[[
+
 require "Items/ProceduralDistributions"
 
 local proceduralDistGameNight = {}
@@ -34,4 +34,3 @@ for distID,chance in pairs(proceduralDistGameNight.listsToInsert) do
     table.insert(ProceduralDistributions.list[distID].items, "PlayingCards4")
     table.insert(ProceduralDistributions.list[distID].items, chance)
 end
---]]

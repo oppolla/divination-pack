@@ -18,14 +18,14 @@ module Base
 
     item PrayerCards
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-    DisplayName = Prayer Deck, Icon = ZenerCards/deck, WorldStaticModel = PrayerCards, }
+    DisplayName = Prayer Deck, Icon = PrayerCards/deck, WorldStaticModel = PrayerCards, }
 
     item TarotCards1
-    { DisplayCategory = Deck, Weight = 0.01, Type = Occult,
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
     DisplayName = Tarot Deck, Icon = TarotCards1/deck, WorldStaticModel = TarotCards1, }
 
 	item TarotCards2
-    { DisplayCategory = Deck, Weight = 0.01, Type = Occult,
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
     DisplayName = Tarot Deck, Icon = TarotCards2/deck, WorldStaticModel = TarotCards2, }
 
     item ZenerCards
