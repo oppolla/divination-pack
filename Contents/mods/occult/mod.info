@@ -1,0 +1,5 @@
+name=Game Night - Occult
+id=gamenight_occult
+description=
+poster=poster.png
+require=gamenight
