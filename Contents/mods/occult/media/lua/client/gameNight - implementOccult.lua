@@ -11,26 +11,6 @@ local zenerCards = {
 applyItemDetails.addDeck("ZenerCards", zenerCards)
 
 
---- Basic Playing Cards
---Joker red and black
-local playingCards = {}
-playingCards.cards = {"Red Joker","Black Joker"}
---Hearts, Clubs, Diamonds, Spades
-playingCards.suits = {"Hearts","Clubs","Diamonds","Spades"}
-playingCards.values = {"2","3","4","5","6","7","8","9","10","Jack","King","Queen","Ace"}
----Parse through suits and values to generate playingCards
--- this is not 'technically' required but I didn't see a point in typing out a list of 52 entries
-for _,s in pairs(playingCards.suits) do
-	for _,v in pairs(playingCards.values) do
-		table.insert(playingCards.cards, v.." of "..s)
-	end
-end
-
-applyItemDetails.addDeck("PlayingCards1", playingCards.cards)
-applyItemDetails.addDeck("PlayingCards2", playingCards.cards)
-applyItemDetails.addDeck("PlayingCards3", playingCards.cards)
-
-
 local prayerCards = {
 	"Saint Agnes", "Saint Aloysius", "Saint Alphonsus", "Saint Andrew",
 	"Saint Angela", "Saint Anne", "Saint Apollonia",
