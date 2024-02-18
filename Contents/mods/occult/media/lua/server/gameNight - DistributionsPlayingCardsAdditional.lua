@@ -13,8 +13,12 @@ proceduralDistGameNight.listsToInsert = {
 }
 
 for distID,chance in pairs(proceduralDistGameNight.listsToInsert) do
-    table.insert(ProceduralDistributions.list[distID].items, "TarotCards1")
+    table.insert(ProceduralDistributions.list[distID].items, "PlayingCards1")
     table.insert(ProceduralDistributions.list[distID].items, chance)
-    table.insert(ProceduralDistributions.list[distID].items, "TarotCards2")
+    table.insert(ProceduralDistributions.list[distID].items, "PlayingCards2")
+    table.insert(ProceduralDistributions.list[distID].items, chance)
+    table.insert(ProceduralDistributions.list[distID].items, "PlayingCards3")
+    table.insert(ProceduralDistributions.list[distID].items, chance)
+    table.insert(ProceduralDistributions.list[distID].items, "PlayingCards4")
     table.insert(ProceduralDistributions.list[distID].items, chance)
 end

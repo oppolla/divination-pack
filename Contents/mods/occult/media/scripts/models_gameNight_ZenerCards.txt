@@ -1,24 +1,8 @@
 module Base
 {
-    model ZenerCards
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_ZenerCards/deckTexture,
-        scale = 0.033,
-    }
+    model PrayerDeck
+    { mesh = WorldItems/cardpack, texture = Item_PrayerCards/deckTexture, scale = 0.033, }
 
-    model ZenerCard
-    {
-        mesh = WorldItems/card,
-        texture = ZenerCards/cardstock,
-        scale = 0.033,
-    }  
-
-    model ZenerBox
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_Boxes/ZenerBox_ground,
-        scale = 0.045,
-    }
-
+    model PrayerCard
+    { mesh = WorldItems/card, texture = Item_PrayerCards/cardstock, scale = 0.033, }
 }

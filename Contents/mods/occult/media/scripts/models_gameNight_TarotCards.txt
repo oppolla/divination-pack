@@ -1,44 +1,14 @@
 module Base
 {
     model TarotCards1
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_TarotCards1/deckTexture,
-        scale = 0.033,
-    }
+    { mesh = WorldItems/cardpack, texture = Item_TarotCards1/deckTexture, scale = 0.033, }
 
- model TarotCards2
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_TarotCards2/deckTexture,
-        scale = 0.033,
-    }
+     model TarotCards2
+    { mesh = WorldItems/cardpack, texture = Item_TarotCards2/deckTexture, scale = 0.033, }
 
     model TarotCard
-    {
-        mesh = WorldItems/card,
-        texture = TarotCards1/cardstock,
-        scale = 0.033,
-    }
+    { mesh = WorldItems/card, texture = Item_TarotCards1/cardstock, scale = 0.033, }
 
     model TarotCard
-    {
-        mesh = WorldItems/card,
-        texture = TarotCards2/cardstock,
-        scale = 0.033,
-    }
-
-    model TarotBox1
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_Boxes/TarotBox_ground,
-        scale = 0.045,
-    }
-
-    model TarotBox2
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_Boxes/TarotBox_ground,
-        scale = 0.045,
-    }
+    { mesh = WorldItems/card, texture = Item_TarotCards2/cardstock, scale = 0.033, }
 }

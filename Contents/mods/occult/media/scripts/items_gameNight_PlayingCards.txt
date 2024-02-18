@@ -1,59 +1,27 @@
 module Base
 {
-    	item PlayingCards1
+    item PlayingCards1
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Playing Card,
-        Icon = PlayingCards1/deck,
-        WorldStaticModel = PlayingCards1,
-    }
-
-   	 item PlayingCardBox1
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = 	Container, Capacity = 2,
-        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+        DisplayName = Playing Cards, Icon = PlayingCards1/deck, WorldStaticModel = PlayingCards1,
     }
 
 	item PlayingCards2
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Playing Card,
-        Icon = PlayingCards2/deck,
-        WorldStaticModel = PlayingCards2,
-    }
-
-    	item PlayingCardBox2
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
-        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+        DisplayName = Playing Cards, Icon = PlayingCards2/deck, WorldStaticModel = PlayingCards2,
     }
 
  	item PlayingCards3
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Playing Card,
-        Icon = PlayingCards3/deck,
-        WorldStaticModel = PlayingCards3,
-    }
-
-    	item PlayingCardBox3
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
-        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+        DisplayName = Playing Cards, Icon = PlayingCards3/deck, WorldStaticModel = PlayingCards3,
     }
 
 	item PlayingCards4
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Playing Card,
-        Icon = PlayingCards4/deck,
-        WorldStaticModel = PlayingCards4,
-    }
-
-    	item PlayingCardBox4
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
-        DisplayName = Playing Card Box, Icon = Boxes/TarotBox, WorldStaticModel = PlayingCardBox,
+        DisplayName = Playing Cards, Icon = PlayingCards4/deck, WorldStaticModel = PlayingCards4,
     }
 
 }

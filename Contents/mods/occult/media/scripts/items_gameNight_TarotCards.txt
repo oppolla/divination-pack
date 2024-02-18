@@ -3,29 +3,13 @@ module Base
     item TarotCards1
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Occult,
-        DisplayName = Tarot Deck,
-        Icon = TarotCards1/deck,
-        WorldStaticModel = TarotCards1,
+        DisplayName = Tarot Deck, Icon = TarotCards1/deck, WorldStaticModel = TarotCards1,
     }
 
 	item TarotCards2
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Occult,
-        DisplayName = Tarot Deck,
-        Icon = TarotCards2/deck,
-        WorldStaticModel = TarotCards2,
-    }
-
-    item TarotBox1
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
-        DisplayName = Tarot Box, Icon = Boxes/TarotBox, WorldStaticModel = TarotBox,
-    }
-
-    item TarotBox2
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
-        DisplayName = Tarot Box, Icon = Boxes/TarotBox, WorldStaticModel = TarotBox,
+        DisplayName = Tarot Deck, Icon = TarotCards2/deck, WorldStaticModel = TarotCards2,
     }
 
 }

@@ -3,17 +3,7 @@ module Base
     item ZenerCards
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Zener Test Cards,
-        Icon = ZenerCards/deck,
-        WorldStaticModel = ZenerCards,
+        DisplayName = Zener Test Cards, Icon = ZenerCards/deck, WorldStaticModel = ZenerCards,
     }
 
-	item ZenerBox
-    {
-        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Zener Box,
-        Icon = ZenerCards/deck,
-        WorldStaticModel = ZenerCards,
-    }
-	
 }

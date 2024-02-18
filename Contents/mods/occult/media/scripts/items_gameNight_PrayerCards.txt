@@ -1,19 +1,9 @@
 module Base
 {
-    item ZenerCards
+    item PrayerCards
     {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Zener Deck,
-        Icon = ZenerCards/deck,
-        WorldStaticModel = ZenerCards,
+        DisplayName = Prayer Deck, Icon = ZenerCards/deck, WorldStaticModel = PrayerCards,
     }
 
-	item ZenerBox
-    {
-        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-        DisplayName = Zener Deck,
-        Icon = ZenerCards/deck,
-        WorldStaticModel = ZenerCards,
-    }
-	
 }
