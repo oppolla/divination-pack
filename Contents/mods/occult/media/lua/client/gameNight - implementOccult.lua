@@ -104,3 +104,4 @@ applyItemDetails.addDeck("TarotCards2", tarotCards2)
 
 local gamePieceAndBoardHandler = require "gameNight - gamePieceAndBoardHandler"
 gamePieceAndBoardHandler.registerTypes({"Base.OuijaBoard", "Base.OuijaPiece"})
+gamePieceAndBoardHandler.registerSpecial("Base.OuijaBoard", { category = "GameBoard", textureSize = {525,340} })

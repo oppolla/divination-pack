@@ -17,7 +17,7 @@ module Base
     {
         mesh = WorldItems/BackgammonBoard,
         texture = Item_InPlayTextures/OuijaBoard,
-        scale = 0.48,
+        scale = 0.30,
         attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
     }
 

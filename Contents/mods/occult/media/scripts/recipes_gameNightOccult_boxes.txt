@@ -1,0 +1,6 @@
+module Base
+{
+
+    recipe Unseal Box { OuijaBox_sealed, Result:OuijaBox, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
+
+}

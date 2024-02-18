@@ -32,7 +32,7 @@ module Base
             DisplayName = Ouija Box, Icon = Boxes/ouijaBox, WorldStaticModel = OuijaBox,
         }
 
-    item Ouija_sealed
+    item OuijaBox_sealed
         {
             DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
             DisplayName = Ouija Box (Sealed), Icon = Boxes/ouijaBox, WorldStaticModel = OuijaBox,
