@@ -33,7 +33,7 @@ applyItemDetails.addDeck("PlayingCards3", playingCards)
 
 local prayerCards = {
 	"Saint Agnes", "Saint Aloysius", "Saint Alphonsus", "Saint Andrew",
-	"Saint Angela", "Saint Anne", "Saint Anthony", "Saint Apollonia",
+	"Saint Angela", "Saint Anne", "Saint Apollonia",
 	"Saint Augustine", "Saint Barbara", "Saint Bartholomew", "Saint Benedict",
 	"Saint Bernadette", "Saint Blaise", "Saint Brendan", "Saint Brigid",
 	"Saint Camillus", "Saint Catherine", "Saint Cecilia", "Saint Charbel",
@@ -49,7 +49,7 @@ local prayerCards = {
 	"Saint Kevin", "Saint Lawrence", "Saint Lazarus", "Saint Lucy",
 	"Saint Luke", "Saint Margaret", "Saint Mark", "Saint Martha",
 	"Saint Martin", "Saint Mary", "Saint Matthew", "Saint Matthias",
-	"Saint Michael", "Saint Monica", "Saint Nicholas", "Saint Patrick",
+	"Saint Michael", "Saint Nicholas", "Saint Patrick",
 	"Saint Paul", "Saint Peregrine", "Saint Peter", "Saint Phillip",
 	"Saint Philomena", "Saint Raphael", "Saint Raymond", "Saint Richard",
 	"Saint Rita", "Saint Robert", "Saint Rocco", "Saint Rose", "Saint Sebastian",
@@ -113,10 +113,10 @@ local tarotCards2 = {
 	"The Magician", "The High Priestess", "The Empress",
 	"The Emperor", "The Hierophant", "The Lovers",
 	"The Chariot", "Fortitude", "The Hermit",
-	"Wheel of Fortune", "Justice", "The Hanged Man",
+	"The Wheel of Fortune", "Justice", "The Hanged Man",
 	"Death", "Temperance", "The Devil",
 	"The Blasted Tower", "The Star", "The Moon",
-	"The Sun", "The Last Judgment", "Universe",
+	"The Sun", "The Last Judgement", "Universe",
 }
 
 applyItemDetails.addDeck("TarotCards2", tarotCards2)
