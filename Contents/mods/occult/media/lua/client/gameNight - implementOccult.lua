@@ -26,9 +26,9 @@ for _,s in pairs(playingCards.suits) do
 	end
 end
 
-applyItemDetails.addDeck("PlayingCards1", playingCards)
-applyItemDetails.addDeck("PlayingCards2", playingCards)
-applyItemDetails.addDeck("PlayingCards3", playingCards)
+applyItemDetails.addDeck("PlayingCards1", playingCards.cards)
+applyItemDetails.addDeck("PlayingCards2", playingCards.cards)
+applyItemDetails.addDeck("PlayingCards3", playingCards.cards)
 
 
 local prayerCards = {
