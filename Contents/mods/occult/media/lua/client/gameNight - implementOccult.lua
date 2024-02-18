@@ -100,3 +100,7 @@ local tarotCards2 = {
 }
 
 applyItemDetails.addDeck("TarotCards2", tarotCards2)
+
+
+local gamePieceAndBoardHandler = require "gameNight - gamePieceAndBoardHandler"
+gamePieceAndBoardHandler.registerTypes({"Base.OuijaBoard", "Base.OuijaPiece"})

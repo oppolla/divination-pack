@@ -1,27 +1,18 @@
+require "Items/SuburbsDistributions"
 
-require "Items/ProceduralDistributions"
+local gameNightDistro = require "gameNight - Distributions"
 
-local proceduralDistGameNight = {}
+table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"TarotCards1")
+table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"TarotCards2")
+table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"ZenerCards")
+table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"PrayerCards")
 
-proceduralDistGameNight.listsToInsert = {
-    ["BarCounterMisc"]=3,
-    ["Gifts"]=4,
-    ["GigamartToys"]=4,
-    ["Hobbies"]=4,
-    ["HolidayStuff"]=4,
-    ["WardrobeChild"]=1,
-    ["CrateRandomJunk"]=1,
+table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"OuijaBox")
+
+gameNightDistro.gameNightBoxes["OuijaBox"] = {
+    rolls = 1,
+    items = {
+        "OuijaPiece", 9999, "OuijaBoard", 9999,
+    },
+    junk = { rolls = 1, items = {} }, fillRand = 0,
 }
-
-for distID,chance in pairs(proceduralDistGameNight.listsToInsert) do
-    table.insert(ProceduralDistributions.list[distID].items, "TarotCards1")
-    table.insert(ProceduralDistributions.list[distID].items, chance)
-    table.insert(ProceduralDistributions.list[distID].items, "TarotCards2")
-    table.insert(ProceduralDistributions.list[distID].items, chance)
-
-    table.insert(ProceduralDistributions.list[distID].items, "ZenerCards")
-    table.insert(ProceduralDistributions.list[distID].items, chance)
-
-    table.insert(ProceduralDistributions.list[distID].items, "PrayerCards")
-    table.insert(ProceduralDistributions.list[distID].items, chance)
-end

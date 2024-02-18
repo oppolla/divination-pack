@@ -16,4 +16,25 @@ module Base
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
     DisplayName = Zener Test Cards, Icon = ZenerCards/deck, WorldStaticModel = ZenerCards, }
 
+    item OuijaBoard {
+        DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
+        DisplayName	=	OuijaBoard, Icon = OutOfPlayTextures/OuijaBoard, WorldStaticModel = OuijaBoard_Ground,
+    }
+
+    item OuijaPiece {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = OuijaPiece, Icon = OutOfPlayTextures/OuijaPiece, WorldStaticModel = OuijaPiece,
+    }
+
+    item OuijaBox
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+            DisplayName = Ouija Box, Icon = Boxes/ouijaBox, WorldStaticModel = OuijaBox,
+        }
+
+    item Ouija_sealed
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+            DisplayName = Ouija Box (Sealed), Icon = Boxes/ouijaBox, WorldStaticModel = OuijaBox,
+        }
 }

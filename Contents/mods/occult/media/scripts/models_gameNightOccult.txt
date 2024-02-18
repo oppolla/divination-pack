@@ -12,4 +12,16 @@ module Base
 
     model ZenerCards { mesh = WorldItems/cardpack, texture = Item_ZenerCards/deckTexture, scale = 0.033, }
     model ZenerCard { mesh = WorldItems/card, texture = Item_ZenerCards/cardstock, scale = 0.033, }
+
+    model OuijaBoard_Ground
+    {
+        mesh = WorldItems/BackgammonBoard,
+        texture = Item_InPlayTextures/OuijaBoard,
+        scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model OuijaPiece { mesh = WorldItems/coin, texture = modelTextures/PokerChipsWhite, scale = 0.004, }
+
+    model OuijaBox { mesh = WorldItems/cardpack, texture = Item_Boxes/ouijaBox_ground, scale = 0.06, }
 }
