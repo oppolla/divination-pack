@@ -12,10 +12,6 @@ module Base
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
     DisplayName = Playing Cards, Icon = PlayingCards3/deck, WorldStaticModel = PlayingCards3, }
 
-	item PlayingCards4
-    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
-    DisplayName = Playing Cards, Icon = PlayingCards4/deck, WorldStaticModel = PlayingCards4, }
-
     item PrayerCards
     { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
     DisplayName = Prayer Deck, Icon = PrayerCards/deck, WorldStaticModel = PrayerCards, }

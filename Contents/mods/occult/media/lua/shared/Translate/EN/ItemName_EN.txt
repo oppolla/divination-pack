@@ -4,7 +4,6 @@ ItemName_EN = {
     ItemName_Base.PlayingCards1 = "Playing Cards",
     ItemName_Base.PlayingCards2 = "Playing Cards",
     ItemName_Base.PlayingCards3 = "Playing Cards",
-    ItemName_Base.PlayingCards4 = "Playing Cards",
     ItemName_Base.PrayerCards = "Prayer Deck",
     ItemName_Base.ZenerCards = "Zener Test Cards",
 }

@@ -3,7 +3,6 @@ module Base
     model PlayingCards1 { mesh = WorldItems/cardpack, texture = Item_PlayingCards1/deckTexture, scale = 0.024, }
 	model PlayingCards2 { mesh = WorldItems/cardpack, texture = Item_PlayingCards2/deckTexture, scale = 0.024, }
     model PlayingCards3 { mesh = WorldItems/cardpack, texture = Item_PlayingCards3/deckTexture, scale = 0.024, }
-    model PlayingCards4 { mesh = WorldItems/cardpack, texture = Item_PlayingCards4/deckTexture, scale = 0.024, }
 
     model PrayerCards { mesh = WorldItems/cardpack, texture = Item_PrayerCards/deckTexture, scale = 0.033, }
     model PrayerCard { mesh = WorldItems/card, texture = Item_PrayerCards/cardstock, scale = 0.033, }
