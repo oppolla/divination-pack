@@ -105,3 +105,19 @@ applyItemDetails.addDeck("TarotCards2", tarotCards2)
 local gamePieceAndBoardHandler = require "gameNight - gamePieceAndBoardHandler"
 gamePieceAndBoardHandler.registerTypes({"Base.OuijaBoard", "Base.OuijaPiece"})
 gamePieceAndBoardHandler.registerSpecial("Base.OuijaBoard", { category = "GameBoard", textureSize = {525,340} })
+
+
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarotDraw", })
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", })
+
+
+local deckActionHandler = require "gameNight - deckActionHandler"
+
+function deckActionHandler.onTarotDraw(deckItem)
+
+	local current = deckItem:getModData()["gameNight_rotation"] or 0
+	local spin = (ZombRand(2)>0)
+	local state = (spin and (current+180) % 360) or current
+
+	gamePieceAndBoardHandler.setModDataValue(deckItem, "gameNight_rotation", state)
+end
