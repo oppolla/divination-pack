@@ -10,8 +10,8 @@ module Base
     model TarotCards2 { mesh = WorldItems/cardpack, texture = Item_TarotCards2/deckTexture, scale = 0.033, }
     model TarotCard2 { mesh = WorldItems/card, texture = Item_TarotCards2/cardstock, scale = 0.033, }
 
-    model ZenerCards { mesh = WorldItems/cardpack, texture = Item_ZenerCards/deckTexture, scale = 0.033, }
-    model ZenerCard { mesh = WorldItems/card, texture = Item_ZenerCards/cardstock, scale = 0.033, }
+    model ZenerCards { mesh = WorldItems/cardpack, texture = Item_ZenerCards/deckTexture, scale = 0.02, }
+    model ZenerCard { mesh = WorldItems/card, texture = Item_ZenerCards/cardstock, scale = 0.02, }
 
     model OuijaBoard_Ground
     {
