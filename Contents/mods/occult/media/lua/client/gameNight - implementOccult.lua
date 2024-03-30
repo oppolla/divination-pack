@@ -1,4 +1,4 @@
-local applyItemDetails = require "gameNight - applyItemDetails"
+local deckActionHandler = require "gameNight - deckActionHandler"
 
 
 local zenerCards = {
@@ -8,7 +8,7 @@ local zenerCards = {
 	"Plus", "Plus", "Plus", "Plus", "Plus",
 	"Squiggles", "Squiggles", "Squiggles", "Squiggles", "Squiggles",
 }
-applyItemDetails.addDeck("ZenerCards", zenerCards)
+deckActionHandler.addDeck("ZenerCards", zenerCards)
 
 
 local prayerCards = {
@@ -37,7 +37,7 @@ local prayerCards = {
 	"Saint Thomas", "Saint Timothy", "Saint Ursula", "Saint Valentine",
 	"Saint Veronica", "Saint Vincent", "Saint Vitus", "Saint William",
 }
-applyItemDetails.addDeck("PrayerCards", prayerCards)
+deckActionHandler.addDeck("PrayerCards", prayerCards)
 
 
 local tarotCards1 = {
@@ -68,7 +68,7 @@ local tarotCards1 = {
 	"The Tower", "The Star", "The Moon",
 	"The Sun", "Judgement", "The World",
 }
-applyItemDetails.addDeck("TarotCards1", tarotCards1)
+deckActionHandler.addDeck("TarotCards1", tarotCards1)
 
 local tarotCards2 = {
 	"Ace of Wands", "Two of Wands", "Three of Wands",
@@ -99,7 +99,7 @@ local tarotCards2 = {
 	"The Sun", "The Last Judgement", "Universe",
 }
 
-applyItemDetails.addDeck("TarotCards2", tarotCards2)
+deckActionHandler.addDeck("TarotCards2", tarotCards2)
 
 
 local gamePieceAndBoardHandler = require "gameNight - gamePieceAndBoardHandler"
@@ -111,7 +111,6 @@ gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarot
 gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", })
 
 
-local deckActionHandler = require "gameNight - deckActionHandler"
 
 function deckActionHandler.onTarotDraw(deckItem)
 
