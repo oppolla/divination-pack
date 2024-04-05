@@ -2,12 +2,11 @@ require "Items/SuburbsDistributions"
 
 local gameNightDistro = require "gameNight - Distributions"
 
-table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"TarotCards1")
-table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"TarotCards2")
-table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"ZenerCards")
-table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"PrayerCards")
-
-table.insert(gameNightDistro.proceduralDistGameNight.itemsToAdd,"OuijaBox")
+gameNightDistro.proceduralDistGameNight.itemsToAdd["TarotCards1"] = {chanceFactor = 0.5}
+gameNightDistro.proceduralDistGameNight.itemsToAdd["TarotCards2"] = {chanceFactor = 0.5}
+gameNightDistro.proceduralDistGameNight.itemsToAdd["ZenerCards"] = {chanceFactor = 0.3}
+gameNightDistro.proceduralDistGameNight.itemsToAdd["PrayerCards"] = {chanceFactor = 0.3}
+gameNightDistro.proceduralDistGameNight.itemsToAdd["OuijaBox"] = {chanceFactor = 0.75}
 
 gameNightDistro.gameNightBoxes["OuijaBox"] = {
     rolls = 1,
