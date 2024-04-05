@@ -1,5 +1,6 @@
-local deckActionHandler = require "gameNight - deckActionHandler"
-
+local applyItemDetails = require "gameNight - applyItemDetails"
+local deckActionHandler = applyItemDetails.deckActionHandler
+local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
 
 local zenerCards = {
 	"Circle", "Circle", "Circle", "Circle", "Circle",
@@ -38,6 +39,7 @@ local prayerCards = {
 	"Saint Veronica", "Saint Vincent", "Saint Vitus", "Saint William",
 }
 deckActionHandler.addDeck("PrayerCards", prayerCards)
+gamePieceAndBoardHandler.registerSpecial("Base.PrayerCards", { actions = {examineCard=true}, textureSize = {150,252} })
 
 
 local tarotCards1 = {
@@ -69,6 +71,7 @@ local tarotCards1 = {
 	"The Sun", "Judgement", "The World",
 }
 deckActionHandler.addDeck("TarotCards1", tarotCards1)
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarotDraw", actions = {examineCard=true}, textureSize = {150,252} })
 
 local tarotCards2 = {
 	"Ace of Wands", "Two of Wands", "Three of Wands",
@@ -100,15 +103,11 @@ local tarotCards2 = {
 }
 
 deckActionHandler.addDeck("TarotCards2", tarotCards2)
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", actions = {examineCard=true}, textureSize = {150,252} })
 
 
-local gamePieceAndBoardHandler = require "gameNight - gamePieceAndBoardHandler"
 gamePieceAndBoardHandler.registerTypes({"Base.OuijaBoard", "Base.OuijaPiece"})
 gamePieceAndBoardHandler.registerSpecial("Base.OuijaBoard", { category = "GameBoard", textureSize = {525,340} })
-
-
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarotDraw", })
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", })
 
 
 
