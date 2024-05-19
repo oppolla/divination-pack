@@ -5,3 +5,7 @@
 [ 3/29/24 ]
 - Updated to match base mod changes to support TCGs
 [ ------ ]
+
+[ 5/18/24 ]
+- Tweaks and underlying updates in preparation for new Add-On.
+[ ------ ]

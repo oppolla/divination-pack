@@ -39,7 +39,7 @@ local prayerCards = {
 	"Saint Veronica", "Saint Vincent", "Saint Vitus", "Saint William",
 }
 deckActionHandler.addDeck("PrayerCards", prayerCards)
-gamePieceAndBoardHandler.registerSpecial("Base.PrayerCards", { actions = {examineCard=true}, textureSize = {150,252} })
+gamePieceAndBoardHandler.registerSpecial("Base.PrayerCards", { actions = {examine=true}, textureSize = {150,252} })
 
 
 local tarotCards1 = {
@@ -71,7 +71,7 @@ local tarotCards1 = {
 	"The Sun", "Judgement", "The World",
 }
 deckActionHandler.addDeck("TarotCards1", tarotCards1)
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarotDraw", actions = {examineCard=true}, textureSize = {150,252} })
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
 
 local tarotCards2 = {
 	"Ace of Wands", "Two of Wands", "Three of Wands",
@@ -103,7 +103,7 @@ local tarotCards2 = {
 }
 
 deckActionHandler.addDeck("TarotCards2", tarotCards2)
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", actions = {examineCard=true}, textureSize = {150,252} })
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
 
 
 gamePieceAndBoardHandler.registerTypes({"Base.OuijaBoard", "Base.OuijaPiece"})
