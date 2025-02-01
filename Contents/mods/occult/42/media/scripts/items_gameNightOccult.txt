@@ -22,7 +22,7 @@ module Base
 
     item OujaBoard {
         DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
-        DisplayName	=	OuijaBoard, Icon = OutOfPlayTextures/OuijaBoard, WorldStaticModel = gn_OuijaBoard,
+        DisplayName	=	OuijaBoard, Icon = OutOfPlayTextures/OujaBoard, WorldStaticModel = gn_OuijaBoard,
         }
 
     item OuijaPiece {
