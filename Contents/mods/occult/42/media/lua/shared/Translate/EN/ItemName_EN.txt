@@ -1,0 +1,6 @@
+ItemName_EN = {
+    ItemName_Base.TarotCards1 = "Tarot Deck",
+    ItemName_Base.TarotCards2 = "Tarot Deck",
+    ItemName_Base.PrayerCards = "Prayer Deck",
+    ItemName_Base.ZenerCards = "Zener Test Cards",
+}

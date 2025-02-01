@@ -1,0 +1,6 @@
+IGUI_EN = {
+    IGUI_TarotCards1 = "Tarot Card",
+    IGUI_TarotCards2 = "Tarot Card",
+    IGUI_PrayerCards = "Prayer Card",
+    IGUI_ZenerCards = "Zener Test Card",
+}

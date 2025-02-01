@@ -1,0 +1,5 @@
+Tarot1: Rider-Waite Tarot Deck -  U.S. Games Systems Inc
+Tarot2: Hermetic Tarot Deck - Godfrey Dowson - U.S. Games Systems Inc
+
+PlayingCard1-2: Bicycle Playing Cards - The United States Playing Card Company
+PlayingCard3-4: Bee Playing Cards - The United States Playing Card Company
