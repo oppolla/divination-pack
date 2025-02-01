@@ -5,8 +5,6 @@ module Base
         DisplayName = Prayer Deck, Icon = PrayerCards/deck, WorldStaticModel = PrayerCards,
         }
 
-    /* TarotCardDeck - TarotCardDeck */
-
     item TarotCardDeck {
         DisplayCategory = Deck, Weight = 0.01, Type = Normal,
         DisplayName = Tarot Deck, Icon = TarotCards1/deck, WorldStaticModel = TarotCards1,
@@ -22,11 +20,9 @@ module Base
         DisplayName = Zener Test Cards, Icon = ZenerCards/deck, WorldStaticModel = ZenerCards,
         }
 
-    /* OujaBoard - OujaBoard */
-
     item OujaBoard {
         DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
-        DisplayName	=	OuijaBoard, Icon = OutOfPlayTextures/OuijaBoard, WorldStaticModel = OuijaBoard_Ground,
+        DisplayName	=	OuijaBoard, Icon = OutOfPlayTextures/OuijaBoard, WorldStaticModel = gn_OuijaBoard,
         }
 
     item OuijaPiece {
