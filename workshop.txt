@@ -3,6 +3,7 @@ id=3164114351
 title=Game Night: Occult
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
 description=[h3]Includes occult and supernatural items to play with.[/h3]
+description=[h3]Tarot cards, Ouija Board, Zener Cards, Prayer Cards, and more![/h3]
 description=
 description=[h3][i][b]Get a glimpse of what the future... or the past... has in store for you...[/b][/i][/h3]
 description=
