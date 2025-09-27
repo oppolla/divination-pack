@@ -71,7 +71,7 @@ local tarotCards1 = {
 	"The Sun", "Judgement", "The World",
 }
 deckActionHandler.addDeck("TarotCards1", tarotCards1)
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
+gamePieceAndBoardHandler.registerSpecial("Base.TarotCards1", { cardFaceType = "TarotCardDeck", onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
 
 local tarotCards2 = {
 	"Ace of Wands", "Two of Wands", "Three of Wands",
