@@ -1,6 +1,6 @@
-local applyItemDetails = require "gameNight - applyItemDetails"
+local applyItemDetails = require("gameNight-applyItemDetails.lua")
 local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
+local gamePieceHandler = applyItemDetails.gamePieceHandler
 
 local zenerCards = {
 	"Circle", "Circle", "Circle", "Circle", "Circle",
@@ -39,7 +39,7 @@ local prayerCards = {
 	"Saint Veronica", "Saint Vincent", "Saint Vitus", "Saint William",
 }
 deckActionHandler.addDeck("PrayerCards", prayerCards)
-gamePieceAndBoardHandler.registerSpecial("Base.PrayerCards", { actions = {examine=true}, textureSize = {150,252} })
+gamePieceHandler.registerSpecial("Base.PrayerCards", { actions = {examine=true}, textureSize = {150,252} })
 
 
 local tarotCards1 = {
@@ -71,7 +71,7 @@ local tarotCards1 = {
 	"The Sun", "Judgement", "The World",
 }
 deckActionHandler.addDeck("TarotCardDeck", tarotCards1)
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCardDeck", { onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
+gamePieceHandler.registerSpecial("Base.TarotCardDeck", { modelOverride = "TarotCards1", weight = 0.01, onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
 
 local tarotCards2 = {
 	"Ace of Wands", "Two of Wands", "Three of Wands",
@@ -103,11 +103,11 @@ local tarotCards2 = {
 }
 
 deckActionHandler.addDeck("TarotCards2", tarotCards2)
-gamePieceAndBoardHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
+gamePieceHandler.registerSpecial("Base.TarotCards2", { onDraw = "onTarotDraw", actions = {examine=true}, textureSize = {150,252} })
 
 
-gamePieceAndBoardHandler.registerTypes({"Base.OujaBoard", "Base.OuijaPiece"})
-gamePieceAndBoardHandler.registerSpecial("Base.OujaBoard", { category = "GameBoard", textureSize = {525,340} })
+gamePieceHandler.registerTypes({"Base.OujaBoard", "Base.OuijaPiece"})
+gamePieceHandler.registerSpecial("Base.OujaBoard", { category = "GameBoard", textureSize = {525,340} })
 
 
 
@@ -117,5 +117,5 @@ function deckActionHandler.onTarotDraw(deckItem)
 	local spin = (ZombRand(2)>0)
 	local state = (spin and (current+180) % 360) or current
 
-	gamePieceAndBoardHandler.setModDataValue(deckItem, "gameNight_rotation", state)
+	gamePieceHandler.setModDataValue(deckItem, "gameNight_rotation", state)
 end

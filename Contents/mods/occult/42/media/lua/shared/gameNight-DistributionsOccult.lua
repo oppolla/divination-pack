@@ -1,8 +1,8 @@
 require "Items/SuburbsDistributions"
 
-local gameNightDistro = require "gameNight - Distributions"
+local gameNightDistro = require("gameNight-Distributions.lua")
 
-gameNightDistro.proceduralDistGameNight.itemsToAdd["TarotCards1"] = {
+gameNightDistro.proceduralDistGameNight.itemsToAdd["TarotCardDeck"] = {
     chanceFactor = 0.5,
     perDistFactor = {
         ["ClassroomDesk"] = 0.01,
