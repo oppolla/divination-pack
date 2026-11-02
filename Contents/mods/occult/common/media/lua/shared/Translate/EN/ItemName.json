@@ -4,5 +4,6 @@
     "Base.PrayerCards": "Prayer Deck",
     "Base.ZenerCards": "Zener Test Cards",
     "Base.OuijaPiece": "Ouija Planchette",
-    "Base.OuijaBox": "Ouija Box"
+    "Base.OuijaBox": "Ouija Box",
+    "Base.OuijaBox_sealed": "Ouija Box (Sealed)"
 }

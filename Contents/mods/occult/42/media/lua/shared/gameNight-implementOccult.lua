@@ -1,6 +1,5 @@
-local applyItemDetails = require("gameNight-applyItemDetails.lua")
-local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceHandler = applyItemDetails.gamePieceHandler
+local gamePieceHandler = require("gameNight-gamePieceHandler.lua")
+local deckActionHandler = gamePieceHandler.card
 
 local zenerCards = {
 	"Circle", "Circle", "Circle", "Circle", "Circle",

@@ -7,4 +7,9 @@ module Base
 
     item OuijaPiece { DisplayCategory = GamePiece, Weight = 0.01, ItemType = base:normal, Icon = OutOfPlayTextures/OuijaPiece, WorldStaticModel = OuijaPiece, }
     item OuijaBox { DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, ItemType = base:container, Capacity = 2, Icon = Boxes/ouijaBox, WorldStaticModel = OuijaBox, }
+
+    item OuijaBox_sealed {
+        DisplayCategory = GameBox, Weight = 0.1, ItemType = base:normal,
+        Icon = Boxes/ouijaBox, WorldStaticModel = OuijaBox,
+    }
 }
